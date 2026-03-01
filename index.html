@@ -24,7 +24,7 @@
   <script type="text/babel" src="app.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js').catch(e => console.log('SW registration failed', e));
+      navigator.serviceWorker.register('sw.js').catch(e => console.log('SW registration failed:', e));
     }
   </script>
 </body>

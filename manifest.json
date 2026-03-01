@@ -1,24 +1,13 @@
 {
-  "name": "KY Mattress Guy - Pro Training",
-  "short_name": "KY Mattress Guy",
-  "description": "Mattress retail training platform with 280 questions",
-  "start_url": "/",
+  "name": "KY Mattress Guy Pro",
+  "short_name": "KY Mattress",
+  "description": "Pro training for mattress retail",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#003b6f",
   "theme_color": "#003b6f",
-  "orientation": "portrait",
   "icons": [
-    {
-      "src": "icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icons/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
   ]
 }
